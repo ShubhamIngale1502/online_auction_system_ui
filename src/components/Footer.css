@@ -1,0 +1,15 @@
+.tw:hover{
+    color: black ;
+    cursor: pointer;
+}
+.in:hover{
+    color: purple;
+    cursor: pointer;
+}
+.fb:hover{
+    color: blue;
+    cursor: pointer;
+}
+.div{
+    background-color:rgba(145, 53, 19, 0.978);
+}
