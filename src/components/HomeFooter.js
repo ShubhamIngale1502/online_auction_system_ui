@@ -4,6 +4,7 @@ import './Footer.css'
 function HomeFooter() {
   return (
     <div className="container col div">
+      
   <footer className="py-3 my-4">
   <ul className="nav float-end ms-auto">
       <h1><li className="ms-3"><a className="text-dark" href="#"><i className="bi bi-twitter-x col tw"></i></a></li></h1>
