@@ -9,11 +9,11 @@ import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-<BrowserRouter>
+
  
     <App />
 
-</BrowserRouter>
+
 );
 
 // If you want to start measuring performance in your app, pass a function

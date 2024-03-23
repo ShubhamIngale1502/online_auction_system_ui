@@ -1,0 +1,17 @@
+.table1 {
+    column-rule: 20px;
+    border: 2px solid;
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: 1px solid black;
+    
+}
+.thead1 {
+    background-color: black;
+    color: white;
+}
+.tbody1 {
+    background-color: rgba(145, 53, 19, 0.978);
+    color: black;
+}
+
