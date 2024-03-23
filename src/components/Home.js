@@ -8,15 +8,15 @@ function Home() {
     <div >
         <nav className="navbar navbar-expand-lg bg-dark text-white" >
   <div className="container-fluid">
-    <a className="navbar-brand fw-bold text-white" href="#">E-Auction.com</a>
+    <a className="navbar-brand fw-bold text-white" to="#">E-Auction.com</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav">
-       <NavLink className="nav-link active text-warning" aria-current="page" href="#">Home</NavLink>
-       <NavLink className="nav-link active text-warning" href="#">Features</NavLink>
-       <NavLink className="nav-link active text-warning" href="#">Pricing</NavLink>
+       <NavLink className="nav-link active text-warning" aria-current="page" to="#">Home</NavLink>
+       <NavLink className="nav-link active text-warning" to="#">Features</NavLink>
+       <NavLink className="nav-link active text-warning" to="#">Pricing</NavLink>
       </div>
       <div className='container ms-auto'>
         <form className='d-flex'>
@@ -25,7 +25,7 @@ function Home() {
         </form>
     </div>
     <div className='ms-auto fw-bold'>
-      <NavLink className="nav-link active" href="#">Login</NavLink>
+      <NavLink className="nav-link active" to="/login">Login</NavLink>
       </div>
     </div>
   </div>
